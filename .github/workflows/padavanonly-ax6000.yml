@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 ###############Name##############
-name: Redmi-AX6000-build-hanwckf
+name: Redmi-AX6000-build-padavanonly
 
 on:
   repository_dispatch:
@@ -17,7 +17,7 @@ on:
     - cron: 0 9 * * *
 
 env:
-  REPO_URL: https://github.com/hanwckf/immortalwrt-mt798x
+  REPO_URL: https://github.com/padavanonly/immortalwrt-mt798x
   REPO_BRANCH: openwrt-21.02
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: padavanonly/Redmi-AX6000/.config
